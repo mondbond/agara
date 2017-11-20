@@ -12,7 +12,7 @@ import java.io.Serializable;
 public class Quote implements Serializable{
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @ManyToOne

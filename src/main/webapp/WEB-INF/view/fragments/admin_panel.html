@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <link href="../../../resources/css/style.css" type="text/css" rel="stylesheet"/>
+    <title>Title</title>
+</head>
+<body>
+
+<div th:fragment="admin" id="admin_panel" class="main_highlight">
+    <a href="../add_author.html">Add more quotes</a>
+    <a href="#" style="margin-left:50px;">Edit quotes</a>
+    <p th:text="${#messages}" style="width: 400px" >  So </p>
+</div>
+
+</body>
+</html>

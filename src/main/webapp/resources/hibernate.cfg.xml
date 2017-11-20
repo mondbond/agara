@@ -19,6 +19,7 @@
         <property name="hibernate.connection.password">
             root
         </property>
+        <property name="hibernate.id.new_generator_mappings">false</property>
 
         <mapping class="com.mond.entity.Author"/>
         <mapping class="com.mond.entity.Quote"/>

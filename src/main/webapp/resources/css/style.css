@@ -1,0 +1,24 @@
+main color
+
+body {
+    font-family: arial;
+    background-color: rgba(247, 145, 4, 0.1);
+}
+
+.main_color{
+    color: #ababab;
+}
+
+.main_light{
+    color: aliceblue;
+}
+
+.main_highlight{
+    color: coral;
+}
+
+#admin_panel{
+    height: 150px;
+    width: 800px;
+    background-color: aliceblue;
+}

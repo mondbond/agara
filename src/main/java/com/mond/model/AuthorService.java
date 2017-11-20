@@ -35,4 +35,10 @@ public class AuthorService {
         return author;
     }
 
+    public void save(Author author) {
+        openSession();
+        currentSession.save(author);
+        closeSession();
+    }
+
 }
